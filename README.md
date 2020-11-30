@@ -28,7 +28,7 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
 
 - #### Step 1: Run Jupyter Notebook from remote machine
 
-  1. Log-in to your remote machine via ssh command. Type the following
+    1. Log-in to your remote machine via ssh command. Type the following
 
   ```
   $ jupyter notebook --no-browser --port=8888
