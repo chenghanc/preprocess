@@ -39,9 +39,8 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
 
     * In your remote machine, the notebook is running at the port XXXX=8888 which you specified
     * Forward port XXXX=8888 to port YYYY=8889 of your local machine so that you can listen and run it from your browser
-    
    
-   ```PowerShell
+   ```
    $ ssh -N -f -L localhost:8889:localhost:8888 nechk@192.168.1.117
    ```
 
@@ -50,8 +49,7 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
     * To open the Jupyter notebook from your remote machine
     * http://localhost:8889/
 
-    
-   ```PowerShell
+   ```
    http://localhost:8889/
    ```
 
