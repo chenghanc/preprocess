@@ -19,16 +19,16 @@ Download specific class images and annotations from COCO dataset and convert to 
 
     * `python converting-coco-yolo.py`
 
-
 # Appendix
 
 We can perform the downloading by running a Jupyter notebook from a remote server. Please visit https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook for more information
 
 ## Usage:
 
-- #### Step 1: Run Jupyter Notebook from remote machine
+- #### Step 1: Run **Jupyter Notebook** from remote machine
 
-    1. Log-in to your remote machine via ssh command. Type the following
+    * Log-in to your remote machine via `ssh` command. Type the following
+    *
 
   ```
   $ jupyter notebook --no-browser --port=8888
@@ -40,7 +40,7 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
     * Forward port XXXX=8888 to port YYYY=8889 of your local machine so that you can listen and run it from your browser
     *
    
-  ```ini
+  ```
   $ ssh -N -f -L localhost:8889:localhost:8888 nechk@192.168.1.117
   ```
 
@@ -48,11 +48,4 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
 
     * To open the Jupyter notebook from your remote machine
     * Type http://localhost:8889/
-
-
-
-
-
-
-
 
