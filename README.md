@@ -17,3 +17,7 @@ Download specific class images and annotations from COCO dataset and convert to 
 
     * `python converting-coco-yolo.py`
 
+
+# Appendix
+
+Running a Jupyter notebook from a remote server
