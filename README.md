@@ -46,11 +46,11 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
 - #### Step 3: Open Jupyter Notebook
 
     * To open the Jupyter notebook from your remote machine
-    * http://localhost:8889/
+    * Type http://localhost:8889/
 
-    ```ini
-    http://localhost:8889/
-    ```
+
+
+
 
 
 
