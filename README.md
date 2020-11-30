@@ -11,7 +11,7 @@ Download specific class images and annotations from COCO dataset and convert to 
 - #### Download specific class images and annotations from COCO dataset
 
     * We can download any specific class from COCO dataset, e.g. `toaster`, `bus` ...
-    * Download specific class images and annotation csv file by running the code `pycoco.ipynb`
+    * Download specific class images and annotation csv file by running the code [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) `pycoco.ipynb`
 
 - #### Convert csv file to YOLO format by running the code
 
