@@ -3,6 +3,7 @@
 Download specific class images and annotations from COCO dataset and convert to YOLO format
 
 ## Usage:
+
 - #### Prerequisite
     * Prepare COCO dataset. Please visit http://cocodataset.org for more information on COCO dataset
     * Install COCO API according to the instructions here: https://github.com/cocodataset/cocoapi
@@ -26,7 +27,7 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
 
 - #### Step 1: Run Jupyter Notebook from remote machine
 
-   ```ini
+   ```
    $ jupyter notebook --no-browser --port=8888
    ```
 
