@@ -21,11 +21,11 @@ Download specific class images and annotations from COCO dataset and convert to 
 
 # Appendix
 
-We can perform the downloading by running a Jupyter notebook from a remote server. Please visit https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook for more information
+We can perform the downloading by running a **Jupyter notebook** from a remote server. Please visit https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook for more information
 
 ## Usage:
 
-- #### Step 1: Run **Jupyter Notebook** from remote machine
+- #### Step 1: Run Jupyter Notebook from remote machine
 
     * Log-in to your remote machine via `ssh` command. Type the following
     *
