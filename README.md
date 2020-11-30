@@ -41,7 +41,7 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
     * Forward port XXXX=8888 to port YYYY=8889 of your local machine so that you can listen and run it from your browser
     
    
-   ```ini
+   ```PowerShell
    $ ssh -N -f -L localhost:8889:localhost:8888 nechk@192.168.1.117
    ```
 
@@ -51,7 +51,7 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
     * http://localhost:8889/
 
     
-   ```ini
+   ```PowerShell
    http://localhost:8889/
    ```
 
