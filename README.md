@@ -31,9 +31,9 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
     * Log-in to your remote machine via ssh command. Type the following
     *
 
-  ```ini
-  $ jupyter notebook --no-browser --port=8888
-  ```
+    ```ini
+    $ jupyter notebook --no-browser --port=8888
+    ```
 
 - #### Step 2: Forward port XXXX to YYYY and listen to it
 
