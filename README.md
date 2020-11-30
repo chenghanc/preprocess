@@ -29,6 +29,7 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
 - #### Step 1: Run Jupyter Notebook from remote machine
 
     * Log-in to your remote machine via ssh command. Type the following
+    *
 
   ```ini
   $ jupyter notebook --no-browser --port=8888
@@ -38,6 +39,7 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
 
     * In your remote machine, the notebook is running at the port XXXX=8888 which you specified
     * Forward port XXXX=8888 to port YYYY=8889 of your local machine so that you can listen and run it from your browser
+    *
    
   ```ini
   $ ssh -N -f -L localhost:8889:localhost:8888 nechk@192.168.1.117
