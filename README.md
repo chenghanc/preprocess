@@ -30,7 +30,7 @@ We can perform the downloading by running a **Jupyter notebook** from a remote s
     * Log-in to your remote machine via `ssh` command. Type the following
     *
 
-  ```
+  ```ini
   $ jupyter notebook --no-browser --port=8888
   ```
 
