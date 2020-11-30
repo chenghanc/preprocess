@@ -42,6 +42,12 @@ We can perform the downloading by running a Jupyter notebook from a remote serve
     ```ini
     $ ssh -N -f -L localhost:8889:localhost:8888 nechk@192.168.1.117
     ```
+    
+  ```
+  1 0.716797 0.395833 0.216406 0.147222
+  0 0.687109 0.379167 0.255469 0.158333
+  1 0.420312 0.395833 0.140625 0.166667
+  ```
 
 - #### Step 3: Open Jupyter Notebook
 
