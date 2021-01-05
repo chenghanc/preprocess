@@ -25,6 +25,8 @@ Download specific class images and annotations from COCO dataset and convert to 
     * `./get_coco_dataset.sh`
     * Please visit https://github.com/AlexeyAB/darknet/wiki/Train-Detector-on-MS-COCO-(trainvalno5k-2014)-dataset for more information
 
+---
+
 # Appendix
 
 We can perform the downloading by running a **Jupyter notebook** from a remote server. Please visit https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook for more information
