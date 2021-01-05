@@ -18,6 +18,11 @@ Download specific class images and annotations from COCO dataset and convert to 
 - #### Convert csv file to YOLO format by running the code
 
     * `python converting-coco-yolo.py`
+---
+
+## Get MS COCO training dataset
+- Use bash-script to get MS COCO training dataset
+    * `./get_coco_dataset.sh`
 
 # Appendix
 
