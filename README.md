@@ -23,6 +23,7 @@ Download specific class images and annotations from COCO dataset and convert to 
 ## Get MS COCO training dataset
 - Use bash-script to get MS COCO training dataset
     * `./get_coco_dataset.sh`
+    * Please visit https://github.com/AlexeyAB/darknet/wiki/Train-Detector-on-MS-COCO-(trainvalno5k-2014)-dataset for more information
 
 # Appendix
 
