@@ -38,6 +38,21 @@ names  = data/coco.names
 backup = backup
 eval=coco
 ```
+- Training data structure
+    * If we need to fine-tune the model on COCO dataset, add custom images in images/val2014 and labels in labels/val2014
+```
+Images:
+
+images/
+├── train2014
+└── val2014
+
+Annotations:
+
+labels/
+├── train2014
+└── val2014
+```
 - Train and fine-tune the model
 ```
 $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -dont_show -mjpeg_port 8090 |tee -a trainRecord.txt
