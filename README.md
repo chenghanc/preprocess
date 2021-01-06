@@ -20,11 +20,24 @@ Download specific class images and annotations from COCO dataset and convert to 
     * `python converting-coco-yolo.py`
 ---
 
-## Get MS COCO training dataset
+## Get MS COCO training dataset and perform training
 - Use bash-script to get MS COCO training dataset
     * `./get_coco_dataset.sh`
     * Please visit https://github.com/AlexeyAB/darknet/wiki/Train-Detector-on-MS-COCO-(trainvalno5k-2014)-dataset for more information
-
+- Download testing dataset for validation purpose (mAP calculations)
+    * `wget http://images.cocodataset.org/zips/test2017.zip`
+    * `wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/scripts/testdev2017.txt`
+    * Please visit https://yanwei-liu.medium.com/training-coco-object-detection-with-yolo-v4-f11bece3feb6 for more information
+- Modify `coco.data`
+```
+classes= 80
+train  = /home/nechk/NECHK-Results/coco2021/coco/trainvalno5k.txt
+valid  = /home/nechk/NECHK-Results/coco2021/coco/testdev2017.txt
+names  = data/coco.names
+backup = backup
+eval=coco
+```
+    
 ---
 
 # Appendix
