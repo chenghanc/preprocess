@@ -1,6 +1,6 @@
 # Data preparation
 
-Download specific class images and annotations from COCO dataset and convert to YOLO format. Perform training on MS COCO dataset using Darknet
+Download specific class images and annotations from COCO dataset and convert to YOLO format. Perform training/fine-tuning on MS COCO dataset using Darknet
 
 
 ## Usage:
