@@ -37,7 +37,11 @@ names  = data/coco.names
 backup = backup
 eval=coco
 ```
-    
+- Train and fine-tune the model
+```
+$ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -dont_show -mjpeg_port 8090 |tee -a trainRecord.txt
+```
+
 ---
 
 # Appendix
