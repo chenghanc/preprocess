@@ -69,11 +69,9 @@ $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -d
     * **learning rate = 0.0001**
     *
     *
-    * `Batch size: 64 (batch=64)`
-    * `Total training data: 120,000`
     * `Iterations: 2,200 (max_batches = 2,200)`
     * `2200 * 64 / 120000 = 1.1733 epochs`
-    * **learning rate = 0.00001**
+    * **learning rate = 0.000013**
     *
     
 </details>
