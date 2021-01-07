@@ -25,10 +25,14 @@ Download specific class images and annotations from COCO dataset and convert to 
 - Use bash-script to get MS COCO training dataset
     * `./get_coco_dataset.sh`
     * Please visit https://github.com/AlexeyAB/darknet/wiki/Train-Detector-on-MS-COCO-(trainvalno5k-2014)-dataset for more information
-- Download testing dataset for validation purpose (mAP calculations)
+- Download testing dataset for validation purpose (mAP calculations on the MS COCO evaluation server)
     * `wget http://images.cocodataset.org/zips/test2017.zip`
     * `wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/scripts/testdev2017.txt`
-    * Please visit https://yanwei-liu.medium.com/training-coco-object-detection-with-yolo-v4-f11bece3feb6 for more information
+    * Please visit https://github.com/AlexeyAB/darknet/wiki/How-to-evaluate-accuracy-and-speed-of-YOLOv4 for more information
+    * To evaluate accuracy of Yolov4, run validation `./darknet detector valid coco.data yolov4.cfg yolov4.weights`
+    * To evaluate accuracy of custom model, run validation `./darknet detector valid coco.data yolov4-ft.cfg yolov4-ft.weights`
+    * Submit file to the MS COCO evaluation server for the test-dev2019 (bbox) https://competitions.codalab.org/competitions/20794#participate
+    
 - Modify `coco.data`
 ```
 classes= 80
@@ -80,6 +84,7 @@ $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -d
     * https://github.com/AlexeyAB/darknet/issues/6652
     * https://github.com/AlexeyAB/darknet/issues/5529
     * https://github.com/AlexeyAB/darknet/issues/5934
+    * https://yanwei-liu.medium.com/training-coco-object-detection-with-yolo-v4-f11bece3feb6
 
 </details>
 
