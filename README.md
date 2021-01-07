@@ -1,9 +1,9 @@
-# Data preparation
+# Project VTS
 
 Download specific class images and annotations from COCO dataset and convert to YOLO format. Perform training/fine-tuning on MS COCO dataset using Darknet
 
 
-## Usage:
+## Download specific classes from COCO:
 
 - #### Prerequisite
 
