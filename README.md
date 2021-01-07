@@ -28,10 +28,10 @@ Download specific class images and annotations from COCO dataset and convert to 
 - Download testing dataset for validation purpose (mAP calculations on the MS COCO evaluation server)
     * `wget http://images.cocodataset.org/zips/test2017.zip`
     * `wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/scripts/testdev2017.txt`
-    * Please visit https://github.com/AlexeyAB/darknet/wiki/How-to-evaluate-accuracy-and-speed-of-YOLOv4 for more information
     * To evaluate accuracy of Yolov4, run validation `./darknet detector valid coco.data yolov4.cfg yolov4.weights`
     * To evaluate accuracy of custom model, run validation `./darknet detector valid coco.data yolov4-ft.cfg yolov4-ft.weights`
     * Submit file to the MS COCO evaluation server for the test-dev2019 (bbox) https://competitions.codalab.org/competitions/20794#participate
+    * Please visit https://github.com/AlexeyAB/darknet/wiki/How-to-evaluate-accuracy-and-speed-of-YOLOv4 for more information
     
 - Modify `coco.data`
 ```
@@ -74,8 +74,8 @@ $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -d
     * **with stopbackward**
 
 - Results on COCO + custom dataset (truck, handbag and backpack) **without stopbackward**
-    * `Iterations: 5,600 (max_batches = 5,600)`
-    * `5600 * 64 / 120000 ~= 3 epochs`
+    * `Iterations: 7,000 (max_batches = 7,000)`
+    * `7000 * 64 / 120000 ~= 3.7333 epochs`
     * **learning rate = 0.000013**
     * **without stopbackward**
     
