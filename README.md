@@ -64,20 +64,18 @@ $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -d
 
 <details><summary><b>CLICK ME</b> - Results on COCO + custom dataset</summary>
 
-- Results on COCO + custom dataset (truck, handbag and backpack)
+- Results on COCO + custom dataset (truck, handbag and backpack) **with stopbackward**
     * `Batch size: 64 (batch=64)`
     * `Total training data: 120,000`
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `1 epoch = 120000 / 64 = 1875 iterations`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.0001**
-    * **with stopbackward**
 
 - Results on COCO + custom dataset (truck, handbag and backpack) **without stopbackward**
     * `Iterations: 7,000 (max_batches = 7,000)`
     * `7000 * 64 / 120000 ~= 3.7333 epochs`
     * **learning rate = 0.000013**
-    * **without stopbackward**
     
 - References
     * https://github.com/AlexeyAB/darknet/issues/2147
