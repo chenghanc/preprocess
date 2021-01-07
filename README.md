@@ -75,6 +75,12 @@ $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -d
     * **learning rate = 0.000013**
     * **without stopbackward**
     
+- References
+    * https://github.com/AlexeyAB/darknet/issues/2147
+    * https://github.com/AlexeyAB/darknet/issues/5529
+    * https://github.com/AlexeyAB/darknet/issues/5529
+    * https://github.com/AlexeyAB/darknet/issues/5934
+
 </details>
 
 ---
