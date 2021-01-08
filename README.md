@@ -58,6 +58,8 @@ labels/
 └── val2014
 ```
 - Train and fine-tune the model
+    * We are fine-tuning/transfer learning in the sense of using pretrained weights from COCO as a starting point (yolov4.weights)
+
 ```
 $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -dont_show -mjpeg_port 8090 |tee -a trainRecord.txt
 ```
