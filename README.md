@@ -126,6 +126,9 @@ Done (t=364.39s)
     * https://github.com/AlexeyAB/darknet/issues/6652
     * https://github.com/AlexeyAB/darknet/issues/5529
     * https://github.com/AlexeyAB/darknet/issues/5934
+    * https://github.com/AlexeyAB/darknet/issues/6623
+    * https://github.com/AlexeyAB/darknet/issues/4386
+    * https://github.com/pjreddie/darknet/issues/224
     * https://yanwei-liu.medium.com/training-coco-object-detection-with-yolo-v4-f11bece3feb6
 
 </details>
