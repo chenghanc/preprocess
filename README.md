@@ -62,6 +62,29 @@ labels/
 $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -dont_show -mjpeg_port 8090 |tee -a trainRecord.txt
 ```
 
+<details><summary><b>CLICK ME</b> - Official Yolov4 results on COCO dataset</summary>
+
+- By running `./darknet detector valid coco.data yolov4.cfg yolov4.weights`, we will get results (AP=0.435 and AP50=0.657) in the end of file View scoring output log
+
+```
+overall performance
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.435
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.657
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.473
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.267
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.467
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.533
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.342
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.549
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.403
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.617
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.713
+Done (t=568.18s)
+```
+
+</details>
+
 <details><summary><b>CLICK ME</b> - Results on COCO + custom dataset</summary>
 
 - Results on COCO + custom dataset (truck, handbag and backpack) **with stopbackward**
