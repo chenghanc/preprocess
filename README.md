@@ -87,7 +87,7 @@ Done (t=568.18s)
 
 <details><summary><b>CLICK ME</b> - Results on COCO + custom dataset</summary>
 
-- Results on COCO + custom dataset (truck, handbag and backpack) **with stopbackward**
+- Results on COCO + custom dataset (truck, handbag and backpack) **with stopbackward** [cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft.cfg)
     * `Batch size: 64 (batch=64)`
     * `Total training data: 120,000`
     * `Iterations: 10,000 (max_batches = 10,000)`
@@ -95,7 +95,7 @@ Done (t=568.18s)
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.0001**
 
-- Results on COCO + custom dataset (truck, handbag and backpack) **without stopbackward**
+- Results on COCO + custom dataset (truck, handbag and backpack) **without stopbackward** [cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg)
     * `Iterations: 7,000 (max_batches = 7,000)`
     * `7000 * 64 / 120000 ~= 3.7333 epochs`
     * **learning rate = 0.000013**
