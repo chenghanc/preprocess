@@ -64,7 +64,7 @@ $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -d
 
 <details><summary><b>CLICK ME</b> - Official Yolov4 results on COCO dataset</summary>
 
-- By running `./darknet detector valid coco.data yolov4.cfg yolov4.weights`, we will get results (AP=0.435 and AP50=0.657) in the end of file View scoring output log
+- By running `./darknet detector valid coco.data yolov4.cfg yolov4.weights` and submit file to the MS COCO evaluation server as described earlier, we will get results (AP=0.435 and AP50=0.657) in the end of file View scoring output log
 
 ```
 overall performance
