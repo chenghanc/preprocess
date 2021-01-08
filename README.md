@@ -111,6 +111,11 @@ overall performance
 Done (t=364.39s)
 ```
 
+- Results on COCO + custom dataset (truck, handbag and backpack) **without stopbackward** [cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb.cfg)
+    * `Iterations: 10,000 (max_batches = 10,000)`
+    * `10000 * 64 / 120000 = 5.3333 epochs`
+    * **learning rate = 0.0001**
+
 - Results on COCO + custom dataset (truck, handbag and backpack) **without stopbackward** [cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg)
     * `Iterations: 7,000 (max_batches = 7,000)`
     * `7000 * 64 / 120000 ~= 3.7333 epochs`
