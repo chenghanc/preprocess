@@ -58,6 +58,7 @@ labels/
 └── val2014
 ```
 - Train and fine-tune the model
+    * We are going to reuse COCO classes (nc=80)
     * We are fine-tuning/transfer learning in the sense of using pretrained weights from COCO as a starting point (yolov4.weights)
 
 ```
