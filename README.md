@@ -60,7 +60,7 @@ labels/
 - Train and fine-tune the model
     * We are going to reuse COCO classes (nc=80)
     * We are transfer learning in the sense of using pretrained weights from COCO as a starting point (yolov4.weights)
-    * **Use the original learning rate (= 0.000013) of last few thousand iterations would gives better overall performance**
+    * **Use the original learning rate (= 0.000013) of last few thousand iterations seems to give better overall performance**
 
 ```
 $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -dont_show -mjpeg_port 8090 |tee -a trainRecord.txt
@@ -91,7 +91,7 @@ Done (t=568.18s)
 
 <details><summary><b>CLICK ME</b> - Results on COCO + custom dataset (truck, handbag and backpack)</summary>
 
-- **with stopbackward** [cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft.cfg)
+- **with stopbackward** [yolov4-ft.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft.cfg)
     * `Batch size: 64 (batch=64)`
     * `Total training data: 120,000`
     * `Iterations: 10,000 (max_batches = 10,000)`
@@ -116,7 +116,7 @@ overall performance
 Done (t=540.49s)
 ```
 
-- **without stopbackward** [cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb.cfg)
+- **without stopbackward** [yolov4-ft-wosb.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb.cfg)
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.00013**
