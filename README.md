@@ -99,6 +99,7 @@ Done (t=568.18s)
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.0001**
 ```
+SCORE=0.686
 overall performance
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.407
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.626
@@ -120,6 +121,7 @@ Done (t=540.49s)
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.00013**
 ```
+SCORE=0.685
 overall performance
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.407
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.626
@@ -141,6 +143,7 @@ Done (t=366.62s)
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.000013**
 ```
+SCORE=0.696
 overall performance (iterations 7000)
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.418
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.639
