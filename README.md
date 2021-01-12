@@ -138,11 +138,12 @@ overall performance
 Done (t=366.62s)
 ```
 
-- **without stopbackward** [cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg)
+- **without stopbackward** [yolov4-ft2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg) [yolov4-ft-wosb2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb2.cfg)
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.000013**
 ```
+yolov4-ft2.cfg
 SCORE=0.696
 overall performance (iterations 7000)
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.418
@@ -158,6 +159,12 @@ overall performance (iterations 7000)
  Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.609
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.696
 Done (t=382.29s)
+```
+
+```
+yolov4-ft-wosb2.cfg
+SCORE=
+overall performance (iterations 10000)
 ```
 
 - References
