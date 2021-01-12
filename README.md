@@ -120,8 +120,8 @@ Done (t=364.39s)
     * **learning rate = 0.00013**
 
 - **without stopbackward** [cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg)
-    * `Iterations: 7,000 (max_batches = 7,000)`
-    * `7000 * 64 / 120000 ~= 3.7333 epochs`
+    * `Iterations: 10,000 (max_batches = 10,000)`
+    * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.000013**
     
 - References
