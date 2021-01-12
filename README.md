@@ -144,7 +144,7 @@ Done (t=366.62s)
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.000013**
-    * **AP=0.418 and AP50=0.639**
+    * **AP=0.418 and AP50=0.639** (iterations 7000)
 ```
 yolov4-ft2.cfg
 SCORE=0.696
