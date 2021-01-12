@@ -98,6 +98,7 @@ Done (t=568.18s)
     * `1 epoch = 120000 / 64 = 1875 iterations`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.0001**
+    * AP=0.407 and AP50=0.626
 ```
 SCORE=0.686
 overall performance
@@ -120,6 +121,7 @@ Done (t=540.49s)
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.00013**
+    * AP=0.407 and AP50=0.626
 ```
 SCORE=0.685
 overall performance
@@ -142,6 +144,7 @@ Done (t=366.62s)
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.000013**
+    * AP=0.418 and AP50=0.639
 ```
 yolov4-ft2.cfg
 SCORE=0.696
