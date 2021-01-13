@@ -140,7 +140,7 @@ overall performance
 Done (t=366.62s)
 ```
 
-- **without stopbackward** [yolov4-ft2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg) [yolov4-ft-wosb2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb2.cfg)
+- **without stopbackward** [yolov4-ft2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg) [yolov4-ft-wosb2-2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb2-2.cfg) [yolov4-ft-wosb2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb2.cfg)
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.000013**
@@ -166,9 +166,22 @@ Done (t=382.29s)
 ```
 
 ```
-yolov4-ft-wosb2.cfg
-SCORE=
+yolov4-ft-wosb2-2.cfg
+SCORE=0.697
 overall performance (iterations 10000)
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.419
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.639
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.456
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.261
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.451
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.507
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.334
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.539
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.571
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.396
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.610
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.697
+Done (t=569.67s)
 ```
 
 - References
