@@ -150,6 +150,7 @@ Done (t=366.62s)
     * **learning rate = 0.000013**
     * **AP=0.418 and AP50=0.639** (iterations 7000)
     * **AP=0.419 and AP50=0.639** (iterations 10000)
+    * performance can be further enhanced if we increase mini-batch
 ```
 yolov4-ft2.cfg
 SCORE=0.696
