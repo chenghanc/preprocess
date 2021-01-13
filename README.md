@@ -97,7 +97,7 @@ Done (t=568.18s)
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `1 epoch = 120000 / 64 = 1875 iterations`
     * `10000 * 64 / 120000 = 5.3333 epochs`
-    * **learning rate = 0.0001**
+    * learning rate = 0.0001
     * AP=0.407 and AP50=0.626
 ```
 SCORE=0.686
@@ -120,7 +120,7 @@ Done (t=540.49s)
 - **without stopbackward** [yolov4-ft-wosb.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb.cfg)
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `10000 * 64 / 120000 = 5.3333 epochs`
-    * **learning rate = 0.00013**
+    * learning rate = 0.00013
     * AP=0.407 and AP50=0.626
 ```
 SCORE=0.685
@@ -145,6 +145,7 @@ Done (t=366.62s)
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.000013**
     * **AP=0.418 and AP50=0.639** (iterations 7000)
+    * **AP=0.419 and AP50=0.639** (iterations 10000)
 ```
 yolov4-ft2.cfg
 SCORE=0.696
