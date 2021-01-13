@@ -151,6 +151,7 @@ Done (t=366.62s)
     * **AP=0.418 and AP50=0.639** (iterations 7000)
     * **AP=0.419 and AP50=0.639** (iterations 10000)
     * performance can be further enhanced if we increase mini-batch
+    * [yolov4-ft2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg)
 ```
 yolov4-ft2.cfg
 SCORE=0.696
@@ -169,6 +170,7 @@ overall performance (iterations 7000)
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.696
 Done (t=382.29s)
 ```
+    * [yolov4-ft-wosb2-2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb2-2.cfg)
 
 ```
 yolov4-ft-wosb2-2.cfg
