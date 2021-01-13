@@ -144,7 +144,7 @@ Done (t=366.62s)
 
 <details><summary><b>CLICK ME</b> - Results on COCO + custom dataset (truck, handbag and backpack) lower learning rate</summary>
 
-- **without stopbackward** [yolov4-ft2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft2.cfg) [yolov4-ft-wosb2-2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb2-2.cfg) [yolov4-ft-wosb2.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb2.cfg)
+- **without stopbackward**
     * `Iterations: 10,000 (max_batches = 10,000)`
     * `10000 * 64 / 120000 = 5.3333 epochs`
     * **learning rate = 0.000013**
