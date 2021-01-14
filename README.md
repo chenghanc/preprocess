@@ -192,6 +192,37 @@ overall performance (iterations 10000)
 Done (t=569.67s)
 ```
 
+</details>
+
+<details><summary><b>CLICK ME</b> - Results on COCO + custom dataset (truck, handbag and backpack) learning rate = 0.00001</summary>
+
+- **without stopbackward**
+    * `Iterations: 10,000 (max_batches = 10,000)`
+    * `10000 * 64 / 120000 = 5.3333 epochs`
+    * **learning rate = 0.00001**
+    * **AP=0.418 and AP50=0.639** (iterations 10000)
+    * performance can be further enhanced if we increase mini-batch
+- [yolov4-ft-wosb2-3.cfg](https://github.com/chenghanc/preprocess/blob/main/yolov4-ft-wosb2-3.cfg)
+
+```
+yolov4-ft-wosb2-3.cfg
+SCORE=0.698
+overall performance (iterations 10000)
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.418
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.639
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.456
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.261
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.450
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.506
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.334
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.539
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.571
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.396
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.611
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.698
+Done (t=407.50s)
+```
+
 - References
     * https://github.com/AlexeyAB/darknet/issues/7247
     * https://github.com/AlexeyAB/darknet/issues/2147
