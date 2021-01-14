@@ -60,7 +60,7 @@ labels/
 - Train and fine-tune the model
     * We are going to reuse COCO classes (nc=80)
     * We are transfer learning in the sense of using pretrained weights from COCO as a starting point (yolov4.weights)
-    * **Use the original learning rate (= 0.000013) of last few thousand iterations seems to give better overall performance**
+    * **Using the original learning rate of last few thousand iterations seems to give good overall performance**
 
 ```
 $ ./darknet detector train coco.data yolov4-ft.cfg yolov4.weights -clear -map -dont_show -mjpeg_port 8090 |tee -a trainRecord.txt
