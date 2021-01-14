@@ -193,6 +193,7 @@ Done (t=569.67s)
 ```
 
 - References
+    * https://github.com/AlexeyAB/darknet/issues/7247
     * https://github.com/AlexeyAB/darknet/issues/2147
     * https://github.com/AlexeyAB/darknet/issues/6652
     * https://github.com/AlexeyAB/darknet/issues/5529
