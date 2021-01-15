@@ -142,7 +142,7 @@ Done (t=366.62s)
 
 </details>
 
-<details><summary><b>CLICK ME</b> - Results on COCO + custom dataset (truck, handbag and backpack) lower learning rate</summary>
+<details><summary><b>CLICK ME</b> - Results on COCO + custom dataset (truck, handbag and backpack) learning rate = 0.000013</summary>
 
 - **without stopbackward**
     * `Iterations: 10,000 (max_batches = 10,000)`
